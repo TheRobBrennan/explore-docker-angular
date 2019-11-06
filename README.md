@@ -58,9 +58,17 @@ Assuming you have followed the "Initial Setup" guide above, you should be able t
 $ npm start
 ```
 
-Your application should be available at [http://localhost:4200](http://localhost:4200).
+Your application should be available at [http://localhost:4200](http://localhost:4200):
+
+![examples/app/screenshots/01-example-app.png](examples/app/screenshots/01-example-app.png)
 
 To verify this is working properly, make a minor modification to `examples/app/src/app/app.component.html` and verify that the page has automatically refreshed with your changes.
+
+This app has also been enhanced to allow testing using Chrome on the local computer as well as headless Chrome within the Docker container itself by running `npm test` or `ng test`:
+
+![examples/app/screenshots/02-example-app-e2e-tests.png](examples/app/screenshots/02-example-app-e2e-tests.png)
+
+![examples/app/screenshots/03-example-app-docker-tests.png](examples/app/screenshots/03-example-app-docker-tests.png)
 
 When you are finished, simply press CTRL+C to spin down the app:
 
