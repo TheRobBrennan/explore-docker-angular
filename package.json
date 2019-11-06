@@ -1,0 +1,16 @@
+{
+  "name": "explore-docker-angular",
+  "version": "0.0.0",
+  "description": "A starting point to explore developing Angular apps in Docker containers",
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/explore-docker-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/explore-docker-angular/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/explore-docker-angular#readme"
+}
