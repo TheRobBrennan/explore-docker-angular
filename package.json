@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "A starting point to explore developing Angular apps in Docker containers",
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "start": "npm run docker:up",
+    "docker:up": "docker-compose up",
+    "docker:up:clean": "docker-compose up --remove-orphans --build",
+    "docker:down": "docker-compose down"
+  },
   "keywords": [],
   "license": "ISC",
   "repository": {
