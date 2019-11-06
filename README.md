@@ -70,6 +70,12 @@ This app has also been enhanced to allow testing using Chrome on the local compu
 
 ![examples/app/screenshots/03-example-app-docker-tests.png](examples/app/screenshots/03-example-app-docker-tests.png)
 
+For [VS Code](https://code.visualstudio.com) users, this example also includes a launch configuration to debug the app natively within the IDE:
+
+![examples/app/screenshots/04-example-app-vscode-config.png](examples/app/screenshots/04-example-app-vscode-config.png)
+
+![examples/app/screenshots/05-example-app-vscode-debug.png](examples/app/screenshots/05-example-app-vscode-debug.png)
+
 When you are finished, simply press CTRL+C to spin down the app:
 
 ```sh
