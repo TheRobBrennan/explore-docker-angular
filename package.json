@@ -9,6 +9,10 @@
     "docker:up:clean": "docker-compose up --remove-orphans --build",
     "docker:down": "docker-compose down"
   },
+  "engines" : {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.0"
+  },
   "keywords": [],
   "license": "ISC",
   "repository": {
