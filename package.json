@@ -7,7 +7,9 @@
     "start": "npm run docker:up",
     "docker:up": "docker-compose up",
     "docker:up:clean": "docker-compose up --remove-orphans --build",
-    "docker:down": "docker-compose down"
+    "docker:down": "docker-compose down",
+    "docker:nuke": "npm run docker:nuke:containers && docker rmi -f $(docker images -q)",
+    "docker:nuke:containers": "docker rm $(docker ps -aq)"
   },
   "engines" : {
     "node": ">=12.13.0",
