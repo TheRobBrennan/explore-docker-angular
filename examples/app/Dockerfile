@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10
+FROM mhart/alpine-node:12.13.0
 
 # Add the bash shell
 RUN apk add --update bash && rm -rf /var/cache/apk/*
@@ -16,5 +16,5 @@ RUN npm install
 # Copy application code
 COPY . ./
 
-# Expose our application and node debugger ports
+# Expose our application port
 EXPOSE 4200
