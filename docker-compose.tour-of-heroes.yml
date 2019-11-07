@@ -11,4 +11,5 @@ services:
       - "4200:4200"
     # Automatically hot reload code changes in the Docker container
     volumes:
+      - ./examples/angular-tour-of-heroes:/app
       - ./examples/angular-tour-of-heroes/src:/app/src
