@@ -10,6 +10,13 @@
       "name": "Angular example app [LOCAL]",
       "url": "http://localhost:4200",
       "webRoot": "${workspaceFolder}/examples/app"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Tour of Heroes [LOCAL]",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}/examples/angular-tour-of-heroes"
     }
   ]
 }
