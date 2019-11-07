@@ -14,6 +14,7 @@ import { HEROES } from './mock-heroes';
 export class HeroService {
   constructor() {}
 
+  // TODO: Change from a synchronous service to an asynchronous real-world example
   getHeroes(): Hero[] {
     return HEROES;
   }
