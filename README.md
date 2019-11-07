@@ -82,3 +82,28 @@ When you are finished, simply press CTRL+C to spin down the app:
 ^CGracefully stopping... (press Ctrl+C again to force)
 Stopping explore-angular-app ... done
 ```
+
+### Tour of Heroes
+
+This example is based off the original [Tour of Heroes](https://angular.io/tutorial) tutorial on the official [Angular](https://angular.io) web site.
+
+You should be able to start this example with:
+
+```sh
+$ npm run toh:start
+```
+
+Your application should be available at [http://localhost:4200](http://localhost:4200):
+
+To verify this is working properly, make a minor modification to `examples/app/src/app/app.component.html` and verify that the page has automatically refreshed with your changes.
+
+This app has also been enhanced to allow testing using Chrome on the local computer as well as headless Chrome within the Docker container itself by running `npm test` or `ng test`
+
+For [VS Code](https://code.visualstudio.com) users, this example also includes a launch configuration to debug the app natively within the IDE.
+
+When you are finished, simply press CTRL+C to spin down the app:
+
+```sh
+^CGracefully stopping... (press Ctrl+C again to force)
+Stopping explore-angular-tour-of-heroes ... done
+```

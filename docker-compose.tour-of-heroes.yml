@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  tour-of-heroes:
+    build:
+      context: ./examples/angular-tour-of-heroes
+      dockerfile: ./Dockerfile
+    container_name: 'explore-angular-tour-of-heroes'
+    command: bash -c "ng serve --host 0.0.0.0 --port 4200"
+    ports:
+      - "4200:4200"
+    # Automatically hot reload code changes in the Docker container
+    volumes:
+      - ./examples/angular-tour-of-heroes:/app
+      - ./examples/angular-tour-of-heroes/src:/app/src
