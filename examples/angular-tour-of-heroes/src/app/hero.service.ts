@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+// In this tutorial, you'll simulate getting data from the server with the RxJS of() function
+import { Observable, of } from 'rxjs';
 
 import { Hero } from './hero';
 import { HEROES } from './mock-heroes';
@@ -14,8 +16,8 @@ import { HEROES } from './mock-heroes';
 export class HeroService {
   constructor() {}
 
-  // TODO: Change from a synchronous service to an asynchronous real-world example
-  getHeroes(): Hero[] {
-    return HEROES;
+  getHeroes(): Observable<Hero[]> {
+    // of(HEROES) returns an Observable<Hero[]> that emits a single value, the array of mock heroes
+    return of(HEROES);
   }
 }
