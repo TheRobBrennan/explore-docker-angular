@@ -11,4 +11,5 @@ services:
       - "4200:4200"
     # Automatically hot reload code changes in the Docker container
     volumes:
+      - ./examples/app:/app
       - ./examples/app/src:/app/src
