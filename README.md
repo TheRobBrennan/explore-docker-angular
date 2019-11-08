@@ -76,6 +76,12 @@ For [VS Code](https://code.visualstudio.com) users, this example also includes a
 
 ![examples/app/screenshots/05-example-app-vscode-debug.png](examples/app/screenshots/05-example-app-vscode-debug.png)
 
+If you would like to generate a code coverage report for your test suite, you can run `$ npm run test:local:coverage` to generate a command line report of your code coverage as well as an interactive web page:
+
+![examples/app/screenshots/06-example-app-code-coverage-html.png](examples/app/screenshots/06-example-app-code-coverage-html.png)
+
+![examples/app/screenshots/07-example-app-code-coverage-cli.png](examples/app/screenshots/07-example-app-code-coverage-cli.png)
+
 When you are finished, simply press CTRL+C to spin down the app:
 
 ```sh
@@ -112,6 +118,12 @@ For [VS Code](https://code.visualstudio.com) users, this example also includes a
 ![examples/angular-tour-of-heroes/screenshots/05-example-vscode-config.png](examples/angular-tour-of-heroes/screenshots/05-example-vscode-config.png)
 
 ![examples/angular-tour-of-heroes/screenshots/06-example-vscode-debug.png](examples/angular-tour-of-heroes/screenshots/06-example-vscode-debug.png)
+
+If you would like to generate a code coverage report for your test suite, you can run `$ npm run test:local:coverage` to generate a command line report of your code coverage as well as an interactive web page:
+
+![examples/angular-tour-of-heroes/screenshots/07-example-code-coverage-html.png](examples/angular-tour-of-heroes/screenshots/07-example-code-coverage-html.png)
+
+![examples/angular-tour-of-heroes/screenshots/08-example-code-coverage-cli.png](examples/angular-tour-of-heroes/screenshots/08-example-code-coverage-cli.png)
 
 When you are finished, simply press CTRL+C to spin down the app:
 
