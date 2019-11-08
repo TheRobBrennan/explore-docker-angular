@@ -20,3 +20,4 @@ COPY . ./
 
 # Expose our application port
 EXPOSE 4200
+EXPOSE 9876
