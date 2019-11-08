@@ -95,11 +95,23 @@ $ npm run toh:start
 
 Your application should be available at [http://localhost:4200](http://localhost:4200):
 
+![examples/angular-tour-of-heroes/screenshots/01-example-dashboard-with-search.png](examples/angular-tour-of-heroes/screenshots/01-example-dashboard-with-search.png)
+
+![examples/angular-tour-of-heroes/screenshots/02-example-heroes-with-input.png](examples/angular-tour-of-heroes/screenshots/02-example-heroes-with-input.png)
+
 To verify this is working properly, make a minor modification to `examples/app/src/app/app.component.html` and verify that the page has automatically refreshed with your changes.
 
 This app has also been enhanced to allow testing using Chrome on the local computer as well as headless Chrome within the Docker container itself by running `npm test` or `ng test`
 
+![examples/angular-tour-of-heroes/screenshots/03-example-e2e-tests.png](examples/angular-tour-of-heroes/screenshots/03-example-e2e-tests.png)
+
+![examples/angular-tour-of-heroes/screenshots/04-example-docker-tests.png](examples/angular-tour-of-heroes/screenshots/04-example-docker-tests.png)
+
 For [VS Code](https://code.visualstudio.com) users, this example also includes a launch configuration to debug the app natively within the IDE.
+
+![examples/angular-tour-of-heroes/screenshots/05-example-vscode-config.png](examples/angular-tour-of-heroes/screenshots/05-example-vscode-config.png)
+
+![examples/angular-tour-of-heroes/screenshots/06-example-vscode-debug.png](examples/angular-tour-of-heroes/screenshots/06-example-vscode-debug.png)
 
 When you are finished, simply press CTRL+C to spin down the app:
 
