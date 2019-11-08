@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "npm run test:ci",
     "test:local": "ng test",
+    "test:local:coverage": "ng test --no-watch --code-coverage && open ./coverage/angular-tour-of-heroes/index.html",
     "test:ci": "ng test --browsers=ChromeHeadless",
+    "test:ci:coverage": "ng test --browsers=ChromeHeadless --no-watch --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
