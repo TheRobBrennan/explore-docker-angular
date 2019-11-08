@@ -14,9 +14,35 @@
     {
       "type": "chrome",
       "request": "launch",
+      "name": "Angular example app [KARMA]",
+      "url": "http://localhost:9876/debug.html", // Docker container
+      // "url": "http://localhost:9877/debug.html",    // Local development machine
+      "webRoot": "${workspaceFolder}/examples/app",
+      "breakOnLoad": true,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "*": "${webRoot}/*"
+      }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
       "name": "Tour of Heroes [LOCAL]",
       "url": "http://localhost:4200",
       "webRoot": "${workspaceFolder}/examples/angular-tour-of-heroes"
-    }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Tour of Heroes [KARMA]",
+      "url": "http://localhost:9876/debug.html", // Docker container
+      // "url": "http://localhost:9877/debug.html",    // Local development machine
+      "webRoot": "${workspaceFolder}/examples/angular-tour-of-heroes",
+      "breakOnLoad": true,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "*": "${webRoot}/*"
+      }
+    },
   ]
 }
