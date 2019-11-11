@@ -95,10 +95,18 @@ export class HeroService {
    */
   private handleError<T>(operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
-      // TODO: send the error to remote logging infrastructure
+      // // Example: What if we are expecting errors of a certain status and we don't want them appearing in our console?
+      // if (error.status === 404) {
+      //   console.log(`All good. We've handled an expected 404 error`);
+      //   // Alternatively, you can just throw a new error here
+      //   // throw new Error(`This one's on you - fix it 🤣 ${JSON.stringify(error, null, 2)}`);
+      // }
+      // // console.log(`Blerk! This won't display if we throw a new Error above, though.`);
+
+      // TODO: We probably want to do something other than log an error in our console, but this works for now
       console.error(error); // log to console instead
 
-      // TODO: better job of transforming error for user consumption
+      // TODO: Implement a better way to convey this error to the user instead of simply adding it to a raw display of messages
       this.log(`${operation} failed: ${error.message}`);
 
       // Let the app keep running by returning an empty result.
