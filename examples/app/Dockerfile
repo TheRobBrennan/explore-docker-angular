@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-# Install Chrome for Protractor tests (increases alpine image size from ~748 MB to ~1.09 GB)
+# Install Chrome for Protractor tests
 RUN apk add chromium chromium-chromedriver
 ENV CHROME_BIN=/usr/bin/chromium-browser
 ENV CHROME_DRIVER=/usr/bin/chromedriver
