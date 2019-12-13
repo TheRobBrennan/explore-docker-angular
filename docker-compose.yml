@@ -6,7 +6,7 @@ services:
       context: ./examples/app
       dockerfile: ./Dockerfile
     container_name: 'explore-angular-app'
-    command: bash -c "ng serve --host 0.0.0.0 --port 4200"
+    command: sh -c "ng serve --host 0.0.0.0 --port 4200"
     ports:
       - "4200:4200"
       - "9876:9876"
