@@ -5,7 +5,13 @@ This example is based off the original [Tour of Heroes](https://angular.io/tutor
 You should be able to start this example with:
 
 ```sh
-$ npm run toh:start
+$ npm start
+```
+
+If you have made changes to any of the Docker related files or the `package.json` for this example, please use:
+
+```sh
+$ npm run build
 ```
 
 Your application should be available at [http://localhost:4200](http://localhost:4200):
@@ -33,6 +39,12 @@ When you are finished, simply press CTRL+C to spin down the app:
 ```sh
 ^CGracefully stopping... (press Ctrl+C again to force)
 Stopping explore-angular-tour-of-heroes ... done
+```
+
+Finally, you can spin down and remove the Docker container(s) for this app with:
+
+```sh
+$ npm run stop
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.

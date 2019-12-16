@@ -15,11 +15,11 @@ Once you have Docker installed, you will need to have the latest version of the 
 ```sh
 # Verify that you have Node.js v10.9.0 or later installed (https://nodejs.org)
 $ node -v
-v12.13.0
+v12.13.1
 
 # Verify that the npm package manager has been installed
 $ npm -v
-6.12.0
+6.13.3
 
 # Install the Angular CLI globally
 $ npm install -g @angular/cli
@@ -100,7 +100,13 @@ This example is based off the original [Tour of Heroes](https://angular.io/tutor
 You should be able to start this example with:
 
 ```sh
-$ npm run toh:start
+$ npm run start:example:angular-tour-of-heroes
+```
+
+If you have made changes to any of the Docker related files or the `package.json` for this example, please use:
+
+```sh
+$ npm run start:example:angular-tour-of-heroes:clean
 ```
 
 Your application should be available at [http://localhost:4200](http://localhost:4200):
@@ -138,4 +144,10 @@ When you are finished, simply press CTRL+C to spin down the app:
 ```sh
 ^CGracefully stopping... (press Ctrl+C again to force)
 Stopping explore-angular-tour-of-heroes ... done
+```
+
+Finally, you can spin down and remove the Docker container(s) for this app with:
+
+```sh
+$ npm run stop:example:angular-tour-of-heroes
 ```
