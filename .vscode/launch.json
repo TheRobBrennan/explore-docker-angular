@@ -27,6 +27,26 @@
     {
       "type": "chrome",
       "request": "launch",
+      "name": "Angular simple observable handling [LOCAL]",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}/examples/simple-observable-error-handling"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Angular simple observable handling [KARMA]",
+      "url": "http://localhost:9876/debug.html", // Docker container
+      // "url": "http://localhost:9877/debug.html",    // Local development machine
+      "webRoot": "${workspaceFolder}/examples/simple-observable-error-handling",
+      "breakOnLoad": true,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "*": "${webRoot}/*"
+      }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
       "name": "Tour of Heroes [LOCAL]",
       "url": "http://localhost:4200",
       "webRoot": "${workspaceFolder}/examples/angular-tour-of-heroes"
