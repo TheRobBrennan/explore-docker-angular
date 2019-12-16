@@ -198,7 +198,7 @@ Here are the commands we followed from the tutorial mentioned above:
 $ cd examples/simple-observable-error-handling/
 
 # Create an Angular service
-$ ng g s student --spec=false
+$ ng g s student --spec=skipTests
 
 # Create src/app/student.model.ts
 # Add the demo data inside src/app/student.service.ts
