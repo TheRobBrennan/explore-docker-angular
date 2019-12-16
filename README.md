@@ -21,8 +21,14 @@ v12.13.1
 $ npm -v
 6.13.3
 
-# Install the Angular CLI globally
+# Install the Angular CLI globally **OR** use npx to run the latest Angular CLI
+## Install globally on your local development environment
 $ npm install -g @angular/cli
+## Install using npx to run the latest Angular CLI
+$ npx -p @angular/cli ng new my-app
+$ cd my-app
+$ npx ng g c my-first-component
+
 ```
 
 ## Getting started
