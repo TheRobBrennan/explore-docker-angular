@@ -1,16 +1,16 @@
 version: '3'
 
 services:
-  client:
+  angular-cli-app:
     build:
-      context: ./examples/app
+      context: ./
       dockerfile: ./Dockerfile
-    container_name: 'explore-angular-app'
+    container_name: 'angular-cli-app'
     command: sh -c "ng serve --host 0.0.0.0 --port 4200"
     ports:
       - "4200:4200"
       - "9876:9876"
     # Automatically hot reload code changes in the Docker container
     volumes:
-      - ./examples/app:/app
-      - ./examples/app/src:/app/src
+      - ./:/app
+      - ./src:/app/src
