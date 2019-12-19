@@ -38,4 +38,9 @@ $ ng g c product-edit --skipTests=true
 # Install the Angular routing progress indicator
 $ npm install ng2-slim-loading-bar --save
 
+# Install rxjs-compat
+$ npm install rxjs-compat --save
+
+# Import the SlimLoadingBarModule inside an app.module.ts
+
 ```
