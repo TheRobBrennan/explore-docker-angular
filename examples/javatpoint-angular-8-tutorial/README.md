@@ -85,5 +85,6 @@ $ npm init
 # Install modules
 $ npm install express body-parser cors mongoose --save
 $ npm install nodemon --save-dev
+# Create the initial implementation of our server - examples/javatpoint-angular-8-tutorial/api/server.js
 
 ```
