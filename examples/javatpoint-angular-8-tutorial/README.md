@@ -58,4 +58,5 @@ $ npm install rxjs-compat --save
 # Configure the HttpClientModule so our front end can make HTTP requests
 # Import the HttpClientModule inside app.module.ts
 
+# Create a model file - examples/javatpoint-angular-8-tutorial/app/src/app/product.ts
 ```
