@@ -63,4 +63,6 @@ $ npm install rxjs-compat --save
 $ ng g service products --skipTests=true
 # Import the products service inside app.module.ts
 
+# Modify the products service to submit data to a TBD back-end server
+
 ```
