@@ -82,6 +82,8 @@ $ mkdir api
 $ cd api
 # Initialize our project
 $ npm init
-
+# Install modules
+$ npm install express body-parser cors mongoose --save
+$ npm install nodemon --save-dev
 
 ```
