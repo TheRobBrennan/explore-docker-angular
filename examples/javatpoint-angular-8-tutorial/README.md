@@ -1,6 +1,7 @@
 # Welcome
 
-This example was inspired by the [Angular 8 Tutorial](https://www.javatpoint.com/angular-8).
+This example was inspired by the [Angular 8 Tutorial](https://www.javatpoint.com/angular-8):
+
 
 The main goals of this example are to enable users:
 
@@ -122,4 +123,11 @@ $ cd examples/javatpoint-angular-8-tutorial/app
 # Add updateProduct to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
 # Add updateProduct to examples/javatpoint-angular-8-tutorial/app/src/app/product-edit/product-edit.component.ts
 
+# Delete data
+# Let's give our Product an _id property to match this tutorials code - examples/javatpoint-angular-8-tutorial/app/src/app/product.ts
+# To make the DELETE operation possible, we have to define a click event on the delete button inside the product-get.component.html file.
+# Add deleteProduct to examples/javatpoint-angular-8-tutorial/app/src/app/product-get/product-get.component.ts
+# Add deleteProduct to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
 ```
+
+That's it!! Your app should be available by browsing to [http://localhost:4200/](http://localhost:4200/). You should be able to create, edit, and delete products to your heart's content.
