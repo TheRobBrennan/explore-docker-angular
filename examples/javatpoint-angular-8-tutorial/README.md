@@ -55,4 +55,7 @@ $ npm install rxjs-compat --save
 # Import the FormGroup, FormBuilder, Validators modules from @angular/forms and create a constructor and instantiate the FormBuilder in examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.ts
 # Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.html to have form validation rules
 
+# Configure the HttpClientModule so our front end can make HTTP requests
+# Import the HttpClientModule inside app.module.ts
+
 ```
