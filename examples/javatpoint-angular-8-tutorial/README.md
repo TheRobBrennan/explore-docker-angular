@@ -32,4 +32,6 @@ $ ng g c product-add --skipTests=true
 $ ng g c product-get --skipTests=true
 $ ng g c product-edit --skipTests=true
 
+# Update our app routing file - examples/javatpoint-angular-8-tutorial/app/src/app/app-routing.module.ts
+
 ```
