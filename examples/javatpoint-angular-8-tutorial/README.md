@@ -35,4 +35,7 @@ $ ng g c product-edit --skipTests=true
 # Update our app routing file - examples/javatpoint-angular-8-tutorial/app/src/app/app-routing.module.ts
 # Create Angular navigation by updating examples/javatpoint-angular-8-tutorial/app/src/app/app.component.html
 
+# Install the Angular routing progress indicator
+$ npm install ng2-slim-loading-bar --save
+
 ```
