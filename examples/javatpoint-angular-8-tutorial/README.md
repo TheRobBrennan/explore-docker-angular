@@ -103,3 +103,15 @@ $ mkdir routes
 ```
 
 At this point, you should be able to create a product and have it persisted in the MongoDB.
+
+### Return to the Angular 8 front-end
+
+```sh
+# Navigate to our directory
+$ cd examples/javatpoint-angular-8-tutorial/app
+
+# Display data in the front-end
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-get/product-get.component.html
+# Add getProducts() to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
+# Modify 
+```
