@@ -113,5 +113,7 @@ $ cd examples/javatpoint-angular-8-tutorial/app
 # Display data in the front-end
 # Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-get/product-get.component.html
 # Add getProducts() to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
-# Modify 
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-get/product-get.component.ts
+
+
 ```
