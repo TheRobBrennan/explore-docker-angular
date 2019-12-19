@@ -97,6 +97,9 @@ $ mkdir models
 
 # Create a routes directory
 $ mkdir routes
-# Create routes for our product CRUD - 
+# Create routes for our product CRUD - examples/javatpoint-angular-8-tutorial/api/src/routes/product.route.js
 
+# Add routes to our server - examples/javatpoint-angular-8-tutorial/api/src/server.js
 ```
+
+At this point, you should be able to create a product and have it persisted in the MongoDB.

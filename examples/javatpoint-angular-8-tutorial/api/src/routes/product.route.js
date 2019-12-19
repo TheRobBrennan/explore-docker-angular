@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const productRoutes = express.Router();
 // Require Product model in our routes module
-let Product = require('../models/Product');
+let Product = require('../models/product');
 // Defined store route
 productRoutes.route('/add').post(function(req, res) {
   let product = new Product(req.body);
