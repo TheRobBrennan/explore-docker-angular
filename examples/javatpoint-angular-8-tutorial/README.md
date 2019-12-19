@@ -2,6 +2,9 @@
 
 This example was inspired by the [Angular 8 Tutorial](https://www.javatpoint.com/angular-8):
 
+![screenshots/screenshot-01.png](screenshots/screenshot-01.png)
+![screenshots/screenshot-02.png](screenshots/screenshot-02.png)
+![screenshots/screenshot-03.png](screenshots/screenshot-03.png)
 
 The main goals of this example are to enable users:
 
