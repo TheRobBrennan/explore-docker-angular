@@ -48,4 +48,6 @@ $ npm install rxjs-compat --save
 # Add router events to examples/javatpoint-angular-8-tutorial/app/src/app/app.component.ts
 # Add the ng2-slim-loading-bar directive inside examples/javatpoint-angular-8-tutorial/app/src/app/app.component.html
 
+# Add a bootstrap form to examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.html
+
 ```
