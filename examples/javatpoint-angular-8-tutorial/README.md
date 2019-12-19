@@ -68,3 +68,20 @@ $ ng g service products --skipTests=true
 # Add the addProduct method to examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.ts
 
 ```
+
+### Node.js back-end
+
+```sh
+# Navigate to our directory
+$ cd examples/javatpoint-angular-8-tutorial
+
+# Create a directory for our back-end server
+$ mkdir api
+
+# Navigate to the new directory
+$ cd api
+# Initialize our project
+$ npm init
+
+
+```
