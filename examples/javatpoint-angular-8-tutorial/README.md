@@ -61,5 +61,6 @@ $ npm install rxjs-compat --save
 # Create a model file - examples/javatpoint-angular-8-tutorial/app/src/app/product.ts
 # Create a service file
 $ ng g service products --skipTests=true
+# Import the products service inside app.module.ts
 
 ```
