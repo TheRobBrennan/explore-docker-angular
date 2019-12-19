@@ -45,4 +45,6 @@ $ npm install rxjs-compat --save
 # Import the styling for the loading bar in examples/javatpoint-angular-8-tutorial/app/src/styles.css
 @import "../node_modules/ng2-slim-loading-bar/style.css";
 
+# Add router events to examples/javatpoint-angular-8-tutorial/app/src/app/app.component.ts
+
 ```
