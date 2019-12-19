@@ -115,5 +115,11 @@ $ cd examples/javatpoint-angular-8-tutorial/app
 # Add getProducts() to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
 # Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-get/product-get.component.ts
 
+# Edit and update the data
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-edit/product-edit.component.ts
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-edit/product-edit.component.html
+# Add updateProduct to examples/javatpoint-angular-8-tutorial/app/src/app/products.service.ts
+# Add updateProduct to examples/javatpoint-angular-8-tutorial/app/src/app/product-edit/product-edit.component.ts
 
 ```
