@@ -14,6 +14,10 @@ services:
     volumes:
       - ./app:/app
       - ./app/src:/app/src
+      # Use the node_modules folder within our Docker container and NOT the local development environment folder
+      - /app/node_modules
+    depends_on:
+      - angular-8-tutorial-api
 
   angular-8-tutorial-api:
     build:
@@ -21,10 +25,17 @@ services:
       dockerfile: ./Dockerfile
     container_name: 'angular-8-tutorial-api'
     # This service will not start until either the mongodb service is available OR thirty seconds have elapsed
-    command: sh -c './scripts/wait-for.sh --timeout=30 mongodb:27017 && npx nodemon server.js -e js,json,graphql'
+    command: sh -c './scripts/wait-for.sh --timeout=30 mongodb:27017 && npx nodemon ./src/server.js -e js,json,graphql'
     ports:
       - "4000:4000"
       - "9229:9229"
+    # Automatically hot reload code changes in the Docker container
+    volumes:
+      - ./api:/app
+      - ./api/src:/app/src
+      # Use the folder(s) within our Docker container and NOT the local development environment folder(s)
+      - /app/node_modules
+      - /app/scripts
     depends_on:
       - mongodb
 
