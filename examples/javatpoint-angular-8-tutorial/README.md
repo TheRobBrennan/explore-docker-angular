@@ -42,5 +42,7 @@ $ npm install ng2-slim-loading-bar --save
 $ npm install rxjs-compat --save
 
 # Import the SlimLoadingBarModule inside an app.module.ts
+# Import the styling for the loading bar in examples/javatpoint-angular-8-tutorial/app/src/styles.css
+@import "../node_modules/ng2-slim-loading-bar/style.css";
 
 ```
