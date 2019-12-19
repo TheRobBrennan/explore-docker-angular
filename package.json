@@ -5,9 +5,9 @@
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
   "scripts": {
     "build": "npm run start:clean",
-    "start": "npm run start:example:angular-cli-simple-observable-error-handling",
-    "start:clean": "npm run start:example:angular-cli-simple-observable-error-handling:clean",
-    "stop": "npm run stop:example:angular-cli-simple-observable-error-handling",
+    "start": "npm run start:example:javatpoint-angular-8-tutorial",
+    "start:clean": "npm run start:example:javatpoint-angular-8-tutorial:clean",
+    "stop": "npm run stop:example:javatpoint-angular-8-tutorial",
     "start:example:angular-cli-app": "cd examples/app && npm start",
     "start:example:angular-cli-app:clean": "cd examples/app && npm run build",
     "stop:example:angular-cli-app": "cd examples/app && npm run stop",
@@ -17,6 +17,9 @@
     "start:example:angular-tour-of-heroes": "cd examples/angular-tour-of-heroes && npm start",
     "start:example:angular-tour-of-heroes:clean": "cd examples/angular-tour-of-heroes && npm run build",
     "stop:example:angular-tour-of-heroes": "cd examples/angular-tour-of-heroes && npm run stop",
+    "start:example:javatpoint-angular-8-tutorial": "cd examples/javatpoint-angular-8-tutorial && npm start",
+    "start:example:javatpoint-angular-8-tutorial:clean": "cd examples/javatpoint-angular-8-tutorial && npm run build",
+    "stop:example:javatpoint-angular-8-tutorial": "cd examples/javatpoint-angular-8-tutorial && npm run stop",
     "docker:nuke": "docker system prune -a && docker volume prune"
   },
   "engines" : {

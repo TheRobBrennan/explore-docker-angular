@@ -1,0 +1,13 @@
+{
+  "name": "javatpoint-angular-8-tutorial",
+  "version": "0.0.0",
+  "description": "This example was inspired by the [Angular 8 Tutorial](https://www.javatpoint.com/angular-8).",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose up --remove-orphans --build --force-recreate",
+    "stop": "docker-compose down"
+  },
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC"
+}
