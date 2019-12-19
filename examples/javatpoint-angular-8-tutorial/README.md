@@ -50,4 +50,7 @@ $ npm install rxjs-compat --save
 
 # Add a bootstrap form to examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.html
 
+# Add Angular 8 Form Validation
+# Import the ReactiveFormsModule inside app.module.ts
+
 ```
