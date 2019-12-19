@@ -53,5 +53,6 @@ $ npm install rxjs-compat --save
 # Add Angular 8 Form Validation
 # Import the ReactiveFormsModule inside app.module.ts
 # Import the FormGroup, FormBuilder, Validators modules from @angular/forms and create a constructor and instantiate the FormBuilder in examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.ts
+# Modify examples/javatpoint-angular-8-tutorial/app/src/app/product-add/product-add.component.html to have form validation rules
 
 ```
