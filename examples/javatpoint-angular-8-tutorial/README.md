@@ -85,6 +85,18 @@ $ npm init
 # Install modules
 $ npm install express body-parser cors mongoose --save
 $ npm install nodemon --save-dev
-# Create the initial implementation of our server - examples/javatpoint-angular-8-tutorial/api/server.js
+# Create a src directory for the initial implementation of our server
+$ mkdir src
+$ cd src
+
+# Create examples/javatpoint-angular-8-tutorial/api/src/server.js
+
+# Create a models directory
+$ mkdir models
+# Create a model for our Product class - examples/javatpoint-angular-8-tutorial/api/src/models/product.js
+
+# Create a routes directory
+$ mkdir routes
+# Create routes for our product CRUD - 
 
 ```
