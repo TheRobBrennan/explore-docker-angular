@@ -1,2 +1,5 @@
 .angulardoc.json
 node_modules/
+
+# MongoDB
+examples/javatpoint-angular-8-tutorial/mongodb/db
