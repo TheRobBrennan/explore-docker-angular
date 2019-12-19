@@ -59,4 +59,7 @@ $ npm install rxjs-compat --save
 # Import the HttpClientModule inside app.module.ts
 
 # Create a model file - examples/javatpoint-angular-8-tutorial/app/src/app/product.ts
+# Create a service file
+$ ng g service products --skipTests=true
+
 ```
