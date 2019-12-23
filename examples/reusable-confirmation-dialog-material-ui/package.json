@@ -1,0 +1,13 @@
+{
+  "name": "reusable-confirmation-dialog-material-ui",
+  "version": "0.0.0",
+  "description": "This example was inspired by [Create a reusable confirmation dialog in Angular 7, using Angular Material](https://firstclassjs.com/create-a-reusable-confirmation-dialog-in-angular-7-using-angular-material/).",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose up --remove-orphans --build --force-recreate",
+    "stop": "docker-compose down"
+  },
+  "license": "ISC"
+}
