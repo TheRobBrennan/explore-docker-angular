@@ -17,3 +17,16 @@ If you have experience working with back-end server code, chances are you may ha
 On the front-end, though, we cannot simply drop this in. Why? `dotenv` and similar libraries reach the file system to read `.env` files - something that cannot be done with the browser.
 
 To solve this, we will create a configuration loader using `val-loader` to work with `dotenv` and `convict` to import our configuration from an `.env` file and build the configuration object our front-end code will need.
+
+## Install dependencies
+
+```sh
+# Navigate to our app directory
+$ cd examples/environment-variables-with-dotenv/app
+
+# Install dotenv and convict as a development dependency
+$ npm install dotenv @types/dotenv convict @types/convict --save-dev
+
+# Install val-loader as a development dependency
+$ npm install val-loader --save-dev
+```
