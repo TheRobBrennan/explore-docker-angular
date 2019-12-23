@@ -30,3 +30,15 @@ $ npm install dotenv @types/dotenv convict @types/convict --save-dev
 # Install val-loader as a development dependency
 $ npm install val-loader --save-dev
 ```
+
+## Create the config service
+
+Let's generate a new service using `npx` and the [Angular CLI](https://cli.angular.io):
+
+```sh
+# Navigate to our app directory
+$ cd examples/environment-variables-with-dotenv/app
+
+# Generate a new service
+$ npx @angular/cli g s services/config
+```
