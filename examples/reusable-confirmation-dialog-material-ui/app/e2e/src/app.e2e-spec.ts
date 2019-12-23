@@ -8,9 +8,8 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should be able to be navigated to by the user', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('app app is running!');
   });
 
   afterEach(async () => {
