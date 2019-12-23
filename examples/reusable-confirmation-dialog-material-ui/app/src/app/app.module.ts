@@ -20,6 +20,10 @@ import { ConfirmationDialogComponent } from './components/shared/confirmation-di
     MatButtonModule,
     MatDialogModule,
   ],
+  entryComponents: [
+    // Specify an entryComponent for any component that should be loaded into a dialog
+    ConfirmationDialogComponent,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
