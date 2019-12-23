@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
+import { ConfirmationDialogComponent } from './components/shared/confirmation-dialog/confirmation-dialog.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConfirmationDialogComponent
   ],
   imports: [
     BrowserModule,

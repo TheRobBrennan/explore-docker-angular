@@ -21,3 +21,11 @@ $ cd examples/reusable-confirmation-dialog-material-ui/app
 # Install dependencies
 $ npm install --save @angular/material @angular/cdk @angular/animations
 ```
+
+### Create the reusable confirmation dialog component
+
+Let's generate a shared `confirmation-dialog` component using the [Angular CLI](https://cli.angular.io):
+
+```sh
+$ npx @angular/cli g c components/shared/confirmation-dialog
+```
