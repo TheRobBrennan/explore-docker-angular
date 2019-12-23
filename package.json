@@ -5,9 +5,9 @@
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
   "scripts": {
     "build": "npm run start:clean",
-    "start": "npm run start:example:reusable-confirmation-dialog-material-ui",
-    "start:clean": "npm run start:example:reusable-confirmation-dialog-material-ui:clean",
-    "stop": "npm run stop:example:reusable-confirmation-dialog-material-ui",
+    "start": "npm run start:example:environment-variables-with-dotenv",
+    "start:clean": "npm run start:example:environment-variables-with-dotenv:clean",
+    "stop": "npm run stop:example:environment-variables-with-dotenv",
     "start:example:angular-cli-app": "cd examples/app && npm start",
     "start:example:angular-cli-app:clean": "cd examples/app && npm run build",
     "stop:example:angular-cli-app": "cd examples/app && npm run stop",
@@ -23,6 +23,9 @@
     "start:example:reusable-confirmation-dialog-material-ui": "cd examples/reusable-confirmation-dialog-material-ui && npm start",
     "start:example:reusable-confirmation-dialog-material-ui:clean": "cd examples/reusable-confirmation-dialog-material-ui && npm run build",
     "stop:example:reusable-confirmation-dialog-material-ui": "cd examples/reusable-confirmation-dialog-material-ui && npm run stop",
+    "start:example:environment-variables-with-dotenv": "cd examples/environment-variables-with-dotenv && npm start",
+    "start:example:environment-variables-with-dotenv:clean": "cd examples/environment-variables-with-dotenv && npm run build",
+    "stop:example:environment-variables-with-dotenv": "cd examples/environment-variables-with-dotenv && npm run stop",
     "docker:nuke": "docker system prune -a && docker volume prune"
   },
   "engines" : {
