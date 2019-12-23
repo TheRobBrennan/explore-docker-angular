@@ -9,3 +9,15 @@ Let's generate a new app using `npx` and the [Angular CLI](https://cli.angular.i
 ```sh
 $ npx @angular/cli new app --style=css --routing=false
 ```
+
+### Install Angular Material
+
+Let's install Angular Material, the Angular Component Development Kit (CDK), and Angular animation:
+
+```sh
+# Make sure you have navigated to the app directory
+$ cd examples/reusable-confirmation-dialog-material-ui/app
+
+# Install dependencies
+$ npm install --save @angular/material @angular/cdk @angular/animations
+```
