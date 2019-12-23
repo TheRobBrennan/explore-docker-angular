@@ -1,7 +1,7 @@
 import { AppPage } from './app.po';
 import { browser, logging } from 'protractor';
 
-describe('workspace-project App', () => {
+describe('reusable-confirmation-dialog-material-ui App', () => {
   let page: AppPage;
 
   beforeEach(() => {
