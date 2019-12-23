@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* This example will use a pre-built theme. Importing the styles of a specific theme is a must, otherwise some of the Material UI styles will be missing. */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
