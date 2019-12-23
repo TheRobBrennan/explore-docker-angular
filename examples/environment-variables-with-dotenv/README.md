@@ -40,5 +40,5 @@ Let's generate a new service using `npx` and the [Angular CLI](https://cli.angul
 $ cd examples/environment-variables-with-dotenv/app
 
 # Generate a new service
-$ npx @angular/cli g s services/config
+$ npx @angular/cli g s services/config/config
 ```
