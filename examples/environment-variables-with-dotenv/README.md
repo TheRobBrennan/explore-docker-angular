@@ -42,3 +42,23 @@ $ cd examples/environment-variables-with-dotenv/app
 # Generate a new service
 $ npx @angular/cli g s services/config/config
 ```
+
+Be sure to create a typing at `app/src/typings.d.ts` for `val-loader` so that TypeScript can understand how to parse `!val-loader!` in a path.
+
+Please take a look at `app/src/app/services/config/config.service.ts`.
+
+## Create a .env file
+
+Since we want to keep our environment variables secret, note that the `.env` is intentionally excluded from source control.
+
+It is a common practice to create a file for reference - `.env.sample` - so that others have a template of environment variables that you are expecting them to define.
+
+To create your `.env` file:
+
+```sh
+# Navigate to our app directory
+$ cd examples/environment-variables-with-dotenv/app
+
+# Copy .env.sample to .env
+$ cp .env.sample .env
+```
