@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  environment-variables-with-dotenv:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+    container_name: 'environment-variables-with-dotenv'
+    command: sh -c "ng serve --host 0.0.0.0 --port 4200"
+    ports:
+      - "4200:4200"
+      - "9876:9876"
+    # Automatically hot reload code changes in the Docker container
+    volumes:
+      - ./app:/app
+      - ./app/src:/app/src
+      # Use the node_modules folder within our Docker container and NOT the local development environment folder
+      - /app/node_modules

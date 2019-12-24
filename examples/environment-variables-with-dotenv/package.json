@@ -1,0 +1,13 @@
+{
+  "name": "environment-variables-with-dotenv",
+  "version": "0.0.0",
+  "description": "This example was inspired by [Configure Frontend Projects With Dotenv](https://codingsans.com/blog/configure-frontend-projects-with-dotenv).",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose up --remove-orphans --build --force-recreate",
+    "stop": "docker-compose down"
+  },
+  "license": "ISC"
+}
