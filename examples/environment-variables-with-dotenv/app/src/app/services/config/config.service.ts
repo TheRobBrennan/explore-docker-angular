@@ -1,4 +1,11 @@
-export class ConfigService {
+import { convict } from './convict';
 
-  constructor() { }
+export class ConfigService {
+  private config = convict;
+
+  constructor() {}
+
+  public getConfig() {
+    return this.config;
+  }
 }
